@@ -35,6 +35,8 @@ body {
 }
 .navbar {
     font-family: Abel, sans-serif;
+    width: 100%;
+
 }
 
 .navlist {
