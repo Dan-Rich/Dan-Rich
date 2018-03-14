@@ -33,8 +33,19 @@ body {
     text-align: center;
     margin-top: 35px;
 }
-.navbar-brand   {
+.navbar {
     font-family: Abel, sans-serif;
+}
 
+.navlist {
+    list-style-type: none;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    overflow: hidden;
+}
 
+.navlist li a{
+    display: block;
+    padding: 8px;
+    margin: 0;
 }
