@@ -69,15 +69,91 @@ h1, h2 {
 
 #design-orb {
     display: block;
-    padding-top: 100%;
-    width: 100%;
+    padding-top: 200px;
+    width: 200px;
     line-height: 50%;
 
     -moz-border-radius: 50%; /* or 50% */
     border-radius: 50%; /* or 50% */
 
-    background-color: black;
+    background-color: #E6563B;
+    border: 10px solid white;
     color: white;
     text-align: center;
+    position: relative;
     font-size: 2em;
+}
+
+#develop-orb {
+    display: block;
+    padding-top: 200px;
+    width: 200px;
+    line-height: 50%;
+
+    -moz-border-radius: 50%; /* or 50% */
+    border-radius: 50%; /* or 50% */
+
+    background-color: #EB9D3A;
+    border: 10px solid white;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+}
+
+#support-orb {
+    display: block;
+    padding-top: 200px;
+    width: 200px;
+    line-height: 50%;
+
+    -moz-border-radius: 50%; /* or 50% */
+    border-radius: 50%; /* or 50% */
+
+    background-color: #7CB06C;
+    border: 10px solid white;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+}
+
+#host-orb {
+    display: block;
+    padding-top: 200px;
+    width: 200px;
+    line-height: 50%;
+
+    -moz-border-radius: 50%; /* or 50% */
+    border-radius: 50%; /* or 50% */
+
+    background-color: #00ABA9;
+    border: 10px solid white;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+}
+.orb-text   {
+     position: absolute;
+     bottom: 98px;
+     left: 50px;
+ }
+
+.orb-text2   {
+    position: absolute;
+    bottom: 98px;
+    left: 47px;
+}
+
+.orb-text3   {
+    position: absolute;
+    bottom: 98px;
+    left: 45px;
+}
+
+.orb-text4   {
+    position: absolute;
+    bottom: 98px;
+    left: 65px;
 }
