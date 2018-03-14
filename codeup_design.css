@@ -12,9 +12,9 @@ body {
 
 .smlheader {
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: white;
-    float: left;
+    position: relative;
 }
 
 .logo {
