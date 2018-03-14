@@ -69,9 +69,9 @@ h1, h2 {
 
 #design-orb {
     display: block;
-    height: auto;
-    width: 50%;
-    line-height: 60px;
+    padding-top: 100%;
+    width: 100%;
+    line-height: 50%;
 
     -moz-border-radius: 50%; /* or 50% */
     border-radius: 50%; /* or 50% */
