@@ -39,15 +39,26 @@ body {
 
 }
 
-.navlist {
+.nav {
     list-style-type: none;
     margin: 20px 0 20px 0;
     padding: 0;
     overflow: hidden;
+    position: relative;
+    bottom: 30px;
 }
 
-.navlist li a{
+.nav-link   {
     display: block;
     padding: 8px;
     margin: 0;
+    text-decoration: black;
+}
+.li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 19px;
+    font-weight: lighter;
+    text-align: justify;
+    word-wrap:break-word;
 }
