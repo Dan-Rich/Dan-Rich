@@ -62,3 +62,22 @@ body {
     text-align: justify;
     word-wrap:break-word;
 }
+
+h1, h2 {
+    text-align: center;
+}
+
+#design-orb {
+    display: block;
+    height: auto;
+    width: 50%;
+    line-height: 60px;
+
+    -moz-border-radius: 50%; /* or 50% */
+    border-radius: 50%; /* or 50% */
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
