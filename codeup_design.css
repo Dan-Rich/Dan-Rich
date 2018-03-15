@@ -444,6 +444,10 @@ h1, h2 {
     visibility: hidden;
 }
 
+.hidden2 {
+    visibility: hidden;
+}
+
 .nopad {
     padding: 0;
 }
@@ -477,25 +481,66 @@ h1, h2 {
 /*MEDIUM SCREEN*/
 
 @media screen and (min-width:992px) {
-        .hidden {
-            visibility: visible;
-        }
+    .hidden {
+        visibility: visible;
+    }
 
-.navbar {
-    position: relative;
-    bottom: 125px;
-    right: 5px;
+    .navbar {
+        position: relative;
+        bottom: 125px;
+        right: 5px;
+    }
+
+    .nopad {
+        padding: 0 30px 30px 30px;
+    }
+
+    .logo {
+        float: left;
+        margin-left: 50px;
+    }
+
+    .title {
+        float: left;
+        position: relative;
+        bottom: 80px;
+        left: 10px;
+    }
+
+    h2.selecttitle {
+        position: relative;
+        top: 60px;
+        float: none;
+        text-align: left;
+    }
+
+    .workpush, .blogpush {
+        margin: 0;
+    }
+
+    .nav {
+        left: 350px;
+    }
+
+    .hidden2 {
+        visibility: visible;
+    }
+
+    .frameright{
+        float: right;
+    }
+
+    .frameleft {
+        float: left;
+    }
 }
-
-
 
 /*LARGE SCREEN*/
 
 @media screen and (min-width:1200px) {
-        .hidden {
-            visibility: visible;
-        }
 
+
+}
 
 
 
