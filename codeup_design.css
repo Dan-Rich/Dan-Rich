@@ -5,6 +5,10 @@ body {
     font-family: Anton, sans-serif;
 }
 
+.row {
+    margin: auto;
+}
+
 .header {
     width: 100%;
     background-color: #f0f0f0;
@@ -67,7 +71,9 @@ h1, h2 {
     text-align: center;
 }
 
-
+.orbz {
+    margin: auto;
+}
 
 #design-orb {
     display: block;
@@ -438,14 +444,32 @@ h1, h2 {
     visibility: hidden;
 }
 
+.nopad {
+    padding: 0;
+}
+
 @media screen and (min-width:768px) {
     .hidden {
-        visibility: revert;
+        visibility: visible;
     }
 
 
     .navbar {
+        position: relative;
+        bottom: 125px;
+        right: 5px;
+    }
 
+    .row {
+        width: 100%;
+    }
+
+    .workpush {
+        margin-right: 70px;
+    }
+
+    .blogpush {
+        margin-left: 50px;
     }
 
 }
