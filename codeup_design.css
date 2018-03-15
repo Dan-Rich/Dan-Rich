@@ -448,6 +448,8 @@ h1, h2 {
     padding: 0;
 }
 
+/*SMALL SCREEN*/
+
 @media screen and (min-width:768px) {
     .hidden {
         visibility: visible;
@@ -471,6 +473,32 @@ h1, h2 {
     .blogpush {
         margin-left: 50px;
     }
+
+/*MEDIUM SCREEN*/
+
+@media screen and (min-width:992px) {
+        .hidden {
+            visibility: visible;
+        }
+
+.navbar {
+    position: relative;
+    bottom: 125px;
+    right: 5px;
+}
+
+
+
+/*LARGE SCREEN*/
+
+@media screen and (min-width:1200px) {
+        .hidden {
+            visibility: visible;
+        }
+
+
+
+
 
 }
 
