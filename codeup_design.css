@@ -460,7 +460,6 @@ h1, h2 {
         visibility: visible;
     }
 
-
     .navbar {
         position: relative;
         bottom: 125px;
@@ -479,7 +478,7 @@ h1, h2 {
         margin-left: 50px;
     }
 
-    .frameright{
+    .frameright {
         float: right;
     }
 
@@ -487,82 +486,68 @@ h1, h2 {
         float: left;
     }
 
-/*MEDIUM SCREEN*/
+    /*MEDIUM SCREEN*/
+    @media screen and (min-width: 768px) {
+        .hidden {
+            visibility: visible;
+        }
 
-@media screen and (min-width:768px) {
-    .hidden {
-        visibility: visible;
+        .navbar {
+            position: relative;
+            bottom: 125px;
+            right: 5px;
+        }
+
+        .nopad {
+            padding: 0 30px 30px 30px;
+        }
+
+        .logo {
+            float: left;
+            margin-left: 50px;
+        }
+
+        .title {
+            float: left;
+            position: relative;
+            bottom: 80px;
+            left: 10px;
+        }
+
+        h2.selecttitle {
+            position: relative;
+            top: 60px;
+            float: none;
+            text-align: left;
+        }
+
+        .workpush, .blogpush {
+            margin: 0;
+        }
+
+        .nav {
+            left: 350px;
+        }
+
+        .hidden2 {
+            visibility: visible;
+        }
+
+        .smpic {
+            height: 50px;
+            width: 50px;
+
+        }
+
+        .twit {
+            height: 30px;
+            width: 30px;
+        }
+
+        .tweet {
+            margin-left: 5px;
+            margin-bottom: 0;
+        }
     }
-
-    .navbar {
-        position: relative;
-        bottom: 125px;
-        right: 5px;
-    }
-
-    .nopad {
-        padding: 0 30px 30px 30px;
-    }
-
-    .logo {
-        float: left;
-        margin-left: 50px;
-    }
-
-    .title {
-        float: left;
-        position: relative;
-        bottom: 80px;
-        left: 10px;
-    }
-
-    h2.selecttitle {
-        position: relative;
-        top: 60px;
-        float: none;
-        text-align: left;
-    }
-
-    .workpush, .blogpush {
-        margin: 0;
-    }
-
-    .nav {
-        left: 350px;
-    }
-
-    .hidden2 {
-        visibility: visible;
-    }
-
-
-    .smpic {
-        height: 50px;
-        width: 50px;
-
-    }
-
-    .twit   {
-        height: 30px;
-        width: 30px;
-    }
-
-    .tweet {
-        margin-left: 5px;
-        margin-bottom: 0;
-    }
-}
-
-
-/*LARGE SCREEN*/
-
-@media screen and (min-width:992px) {
-
-
-}
-
-
-
-
 }
 
