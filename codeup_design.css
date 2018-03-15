@@ -533,7 +533,19 @@ h1, h2 {
     .frameleft {
         float: left;
     }
+
+    .smpic {
+        height: 80px;
+        width: 80px;
+
+    }
+
+    .twit   {
+        height: 30px;
+        width: 30px;
+    }
 }
+
 
 /*LARGE SCREEN*/
 
