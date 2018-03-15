@@ -442,9 +442,11 @@ h1, h2 {
     .hidden {
         visibility: revert;
     }
+
+
+    .navbar {
+
+    }
+
 }
-
-
-
-
 
