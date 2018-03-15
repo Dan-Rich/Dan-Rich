@@ -454,7 +454,8 @@ h1, h2 {
 
 /*SMALL SCREEN*/
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 576px) {
+
     .hidden {
         visibility: visible;
     }
@@ -478,9 +479,17 @@ h1, h2 {
         margin-left: 50px;
     }
 
+    .frameright{
+        float: right;
+    }
+
+    .frameleft {
+        float: left;
+    }
+
 /*MEDIUM SCREEN*/
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:768px) {
     .hidden {
         visibility: visible;
     }
@@ -526,17 +535,10 @@ h1, h2 {
         visibility: visible;
     }
 
-    .frameright{
-        float: right;
-    }
-
-    .frameleft {
-        float: left;
-    }
 
     .smpic {
-        height: 80px;
-        width: 80px;
+        height: 50px;
+        width: 50px;
 
     }
 
@@ -544,12 +546,17 @@ h1, h2 {
         height: 30px;
         width: 30px;
     }
+
+    .tweet {
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
 }
 
 
 /*LARGE SCREEN*/
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:992px) {
 
 
 }
